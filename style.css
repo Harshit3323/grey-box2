@@ -146,6 +146,15 @@ body {
     margin-top: 10vh!important;
     padding: 5vh 0;
 }
+.icon-li, .icon-li2 {
+    display: inline-block;
+    list-style-type: none;
+
+}
+.icon-li li,.icon-li2 li {
+    display: inline-block;
+    margin: 0 20px;
+}
 
 @media (max-width: 600px) {
     .logo {
