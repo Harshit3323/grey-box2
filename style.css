@@ -1,0 +1,226 @@
+
+body {
+    margin: 0; 
+    color: #414042;
+}
+
+/* NAVBAR */
+.main {
+    height: auto;
+}
+.logo {
+    width: 7rem;
+}
+.navbar {
+    background: #fbfbfb;
+    padding-bottom: 3.125rem;
+}
+.navbar-toggler-icon {
+    font-size: 80%!important;
+    border-color: transparent;
+}
+.nav-item {
+    margin: 0 1.25rem;
+}
+.nav-btn {
+    color: #414042;
+    font-weight: 600;
+}
+.nav-btn:hover {
+    color: #2b2a2c;
+}
+.navbar-nav {
+    margin-right: 5%;
+}
+.nav-link {
+    padding: 0!important;
+    text-align: right;
+}
+/* CAPTION*/
+.caption {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 35%;
+}
+.caption-text {
+    font-size: 2vw;
+}
+.caption h3 {
+    margin-bottom: 0;
+}
+.caption h1 {
+    margin-bottom: 0;
+    font-size: 4.5vw!important;
+}
+.green {
+    font-weight: bolder;
+}
+.cap-img {
+    position: absolute;
+    left: 49%;
+    top: 150px;
+    width:50vw;
+}
+.img{
+    width:80%;
+}
+.btn-1 {
+    border: none;
+    padding:  .5vw 2vw!important;
+    font-size: 1.5vw!important;
+    border-radius: 1vw!important;
+    color: #fafafa!important;
+    background-color: #526143!important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bens {
+    background-color:#526143;
+    color: #fafafa;
+    margin-top: 80px;
+}
+.content {
+    padding: 30px 0;
+    padding-left: 5%;
+}
+.row {    
+    margin-right: 0!important;
+}
+.bens-cap{
+    display: inline-block;
+    width: 50%;
+    padding-left: 3rem;
+}
+.bens-cap h3 {
+    font-size: 2vw;
+}
+.bens-cap h1{
+    font-size: 3vw;
+}
+.bens-cap p {
+    font-size: 1vw;
+    font-weight: 300;
+}
+.bens-icon {
+    display: inline-block;
+}
+.bens-icon ul{
+    display:inline; 
+}
+.bens-icon ul li {
+    display: inline-block;
+}
+.bens-img {
+    width: 8vw;
+    margin: 1rem 1vw;
+}
+.vis {
+    margin-top: 80px!important;
+}
+.vis-1 {
+    width: fit-content;
+    text-align: center;
+}
+.vis-img {
+    width: 80%;
+}
+.vis-cap h1 {
+    color: #526143;
+}
+.vis-cap p{
+    width: 90%;
+    color: #526143;
+}
+#dots{
+    display: none;
+}
+#more{
+    display: inline ;
+}
+#myBtn{
+    display: none;
+}
+.dis {
+    background-color: #526143;
+    color: #fff;
+    text-align: center;
+    margin-top: 10vh!important;
+    padding: 5vh 0;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 90px;
+    }
+    .cap-img{
+        position: static;
+        width: auto;
+        text-align: center;
+    }
+    .img {
+        width: 66%;
+    }
+
+    .caption {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4vw;
+    }
+    .bens-icon ul li{
+        width: fit-content;
+    }
+    .bens-img {
+        width: 15vw!important;
+    }
+}   
+
+@media (max-width:768px){
+    #dots{
+        display: inline;
+    }
+    #more{
+        display: none ;
+    }
+    #myBtn{
+        display: block;
+    }
+}
+
+
+@media (max-width:990px) {
+    .bens-cap{
+        text-align: center;
+        padding-left: 1rem!important;
+    }
+    .bens-cap h3{
+        font-size: 4vw;
+    }
+    .bens-cap h1 {
+        font-size: 5vw;
+    }
+    .bens-cap p {
+        font-size: 2vw;
+    }
+    .bens-icon{
+        text-align: center;
+    }
+    .bens-img {
+        width: 15vw;
+        margin-right: 30px;
+    }
+    .vis-cap h1{
+        text-align: center;
+    }
+    .vis-p{
+       text-align: center;
+       margin-left: 20%;
+       margin-top: 20px;
+    }
+    .vis-cap p{
+        text-align: left;
+        width: 80%;
+    }
+    #more{
+        display: none;
+    }
+}
