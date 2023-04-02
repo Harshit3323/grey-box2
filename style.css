@@ -3,7 +3,9 @@ body {
     margin: 0; 
     color: #414042;
 }
-
+ul{
+    list-style-type: none;
+}
 /* NAVBAR */
 .main {
     height: auto;
@@ -154,7 +156,36 @@ body {
 .icon-li li,.icon-li2 li {
     display: inline-block;
     margin: 0 20px;
+    width: 25%;
 }
+.dis-png {
+    width: 100%!important;
+}
+
+.card{
+    width: 100%!important;
+    height: 85%!important;
+}
+.card-img-top{
+    height: 50vh;
+    background-color: #d9d9d9;
+}
+.card-body{
+    background-color: #526143;
+    color: #fff!important;
+    border-bottom-left-radius: var(--bs-card-inner-border-radius);
+    border-bottom-right-radius: var(--bs-card-inner-border-radius);
+}
+.crd1 li, .crd2 li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin: 50px 100px;
+}
+.crd1,.crd2 {
+    text-align: center;
+}
+
 
 @media (max-width: 600px) {
     .logo {
@@ -181,7 +212,9 @@ body {
     .bens-img {
         width: 15vw!important;
     }
+    
 }   
+
 
 @media (max-width:768px){
     #dots{
@@ -192,6 +225,25 @@ body {
     }
     #myBtn{
         display: block;
+        padding: 10px 15px!important;
+        font-size: large;
+    }
+    .dis-png {
+        width: 70%!important;
+    }
+    .icon-li, .icon-li2 {
+        display: block;
+        list-style-type: none;
+        width: inherit;
+    
+    }
+    .icon-li li,.icon-li2 li {
+        display: inline-block;
+        margin: 0 ;
+        width: 25%;
+    }
+    .dis-png{
+        width: 75%!important;
     }
 }
 
