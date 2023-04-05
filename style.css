@@ -162,29 +162,33 @@ ul{
     width: 100%!important;
 }
 
-.card{
-    width: 100%!important;
-    height: 85%!important;
+.products{
+    width: inherit;
+    height: 125vh;
+    background-color: #ededdb;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3vw;
 }
-.card-img-top{
-    height: 50vh;
+.pro-img{
+    width: 20vw;
+    height: 20vw;
     background-color: #d9d9d9;
+    margin-left: 6vw;
 }
-.card-body{
+.colm{
+    margin-bottom: 50px;
+}
+.pro-cap{
+    width: 20vw;
+    text-align: center;
+    margin-left: 19%;
+}
+.pro-cap:hover{
     background-color: #526143;
-    color: #fff!important;
-    border-bottom-left-radius: var(--bs-card-inner-border-radius);
-    border-bottom-right-radius: var(--bs-card-inner-border-radius);
+    color: #fff;
 }
-.crd1 li, .crd2 li {
-    display: inline-block;
-    width: 25%;
-    text-align: center;
-    margin: 50px 100px;
-}
-.crd1,.crd2 {
-    text-align: center;
-}
+
 
 
 @media (max-width: 600px) {
@@ -245,6 +249,7 @@ ul{
     .dis-png{
         width: 75%!important;
     }
+
 }
 
 
