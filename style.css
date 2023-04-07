@@ -188,8 +188,52 @@ ul{
     background-color: #526143;
     color: #fff;
 }
-
-
+.background{
+    background-image: url(./bg.png);
+    width: auto;
+    height: 90vh;
+}
+.blur{
+    background-image: url(./blurr.png);
+    width: 90%;
+    height: 80%;
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+.blurr-cap {
+    color: #fff;
+    position: inherit;
+    top: 10%;
+}
+.blurr-icon {
+    position: inherit;
+    top: 20%;
+}
+.blurr-icon img{
+    width: 15%;
+}
+.items{
+    display: inline-block;
+}
+.footer {
+    background-color: #526143;
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+}
+.creds{ 
+    text-align: left;
+}
+.credential{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.foot-btn{
+    background-color: #ededdb!important;
+    color: #2b2a2c!important;
+    margin-left: 5%;
+}
 
 @media (max-width: 600px) {
     .logo {
@@ -306,6 +350,12 @@ ul{
     }
     #more{
         display: none;
+    }
+    .background{
+        height: 50vh;
+    }
+    .blurr-icon img{
+        width: 15%;
     }
 }
 @media (min-width:601px) and ( max-width:991px) {
