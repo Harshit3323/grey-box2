@@ -234,6 +234,9 @@ ul{
     color: #2b2a2c!important;
     margin-left: 5%;
 }
+.products h3 {
+    font
+}
 
 @media (max-width: 600px) {
     .logo {
@@ -278,6 +281,21 @@ ul{
     }
     .products{
         height: 500vh;
+    }
+    .adds {
+        font-size: 10px;
+        text-align: right;
+        min-width: 50%!important;
+    }
+    .creds{
+        font-size: 15px;
+    }
+    .blank{
+        display: none!important;
+    }
+    .foot-btn {
+        padding: 10px 20px!important;
+        font-size: 12px!important;
     }
 }   
 
@@ -356,6 +374,9 @@ ul{
     }
     .blurr-icon img{
         width: 15%;
+    }
+    .creds-1,.creds-2,.adds,.blank {
+        width: 25%!important;
     }
 }
 @media (min-width:601px) and ( max-width:991px) {
